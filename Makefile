@@ -1,8 +1,8 @@
 build:
-	docker build . -t automation-for-humans
+	docker build . -t python3-pandas
 push:
-	docker tag automation-for-humans rohithr31/automation-for-humans
-	docker push rohithr31/automation-for-humans
+	docker tag python3-pandas akaysh/TTax-SFLoopReports
+	docker push akaysh/TTax-SFLoopReports
 run:
 	docker run --name test -it automation-for-humans
 clean:
